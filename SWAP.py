@@ -44,7 +44,7 @@ def LOGIN(): # defining login button's command
     Username=user_name_entry.get() # getting the input of
     Password=password_entry.get()  # login window
     
-    if Username =='SPSUSER' and Password == 'SPS@123': # checking the parameters
+    if Username =='SWAPUSER' and Password == 'SWAPUSER@123': # checking the parameters
         
         login.destroy()
         
